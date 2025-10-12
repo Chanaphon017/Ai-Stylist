@@ -143,6 +143,8 @@ annot_bgr = res.plot()
 annot_rgb = cv2.cvtColor(annot_bgr, cv2.COLOR_BGR2RGB)
 st.image(annot_rgb, use_column_width=True)
 ```
+### โมเดล best.pt 
+- https://drive.google.com/drive/folders/1l4f5AQY_4VghwC_XZ1_QZwgBjRAT9lwc?usp=sharing  
 
 ### โหลดโมเดลไม่ผ่าน
 - ตรวจสอบพาธไฟล์ `best.pt` และสิทธิ์อ่านไฟล์
@@ -164,4 +166,5 @@ st.image(annot_rgb, use_column_width=True)
 
   python -m pip install -U pip setuptools wheel
   pip install -r requirements.txt
+
   streamlit run app.py
