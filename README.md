@@ -1,2 +1,0 @@
-# Ai-Stylist
-app 
